@@ -3,7 +3,7 @@
 module testbench();
     
     reg [3:0] Input[1:0];
-    wire[3:0] M,S;
+    wire[4:0] M,S;
     
     bits4_adder t1(.a(Input[1]), .b(Input[0]), .m(M));
     bits4_subtractor t2(.a(Input[1]), .b(Input[0]), .m(S));
