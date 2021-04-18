@@ -1,3 +1,4 @@
+//≥Ø¿A≈Ô_e94086042
 module answer(
     input a,
     input b,
@@ -7,5 +8,6 @@ module answer(
     output m
     );
     
+    // a+(b* ~d)+e
     assign m = a | ( b & ~d ) | e;
 endmodule
