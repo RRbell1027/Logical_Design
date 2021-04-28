@@ -1,4 +1,3 @@
-//³¯ÀAÅï_e94086042
 `timescale 1ns / 1ns
 
 module testbench();
@@ -6,10 +5,10 @@ module testbench();
     reg A,B,C,D,E;
     wire Q,An;
     
-    question q1(.a(A), .b(B), .c(C), .d(D), .e(E), .m(Q));  //°İÃD
-    answer a1(.a(A), .b(B), .c(C), .d(D), .e(E), .m(An));   //µª®×ªºSOP
+    question q1(.a(A), .b(B), .c(C), .d(D), .e(E), .m(Q));  //å•é¡Œ
+    answer a1(.a(A), .b(B), .c(C), .d(D), .e(E), .m(An));   //ç­”æ¡ˆçš„SOP
     
-    //Q©MAn§k¦X§Y¦¨¥\
+    //Qå’ŒAnå»åˆå³æˆåŠŸ
     initial begin
         A=1; B=0; C=0; D=0; E=0;
         #10 A=0; B=0; C=0; D=0; E=0;
